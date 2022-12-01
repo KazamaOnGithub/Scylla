@@ -33,7 +33,7 @@ Scylla is useful for quickly creating files and storing them,
 <br><br>
 **Before**:<br>
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1047925940770054144/1047957017656045588/image.png", width="500", height="500">
+<img src="https://cdn.discordapp.com/attachments/1047925940770054144/1047957017656045588/image.png">
 </p>
 
 <br><br>
