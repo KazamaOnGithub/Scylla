@@ -1,7 +1,7 @@
 -----
 
 <p align="center">
-<img src="[https://repository-images.githubusercontent.com/499265392/cdeb5cae-691b-49c7-9f65-56fc01d54813](https://cdn.discordapp.com/attachments/1047925940770054144/1047953087316381767/image.png)", width="500", height="500">
+<img src="https://cdn.discordapp.com/attachments/1047925940770054144/1047953087316381767/image.png", width="500", height="500">
 </p>
 
 -----
@@ -12,7 +12,7 @@
 <p align="center">
 <strong>
 Scylla is useful for quickly creating files and storing them,
-<br>developped by <a href="https://github.com/KazamaOnGithub">KazamaOnGithub</a> (me) and my discord server<a href="discord.gg/backfire">discord serveur</a>.
+<br>developped by <a href="https://github.com/KazamaOnGithub">KazamaOnGithub</a> (me) and my <a href="discord.gg/backfire">discord serveur</a>.
 <br><br>
 It allows you to obfuscate your script with more than 10 layers, while keeping it
 <br>
