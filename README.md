@@ -36,7 +36,9 @@ Very light file in .py or exe file!
 
 <br><br>
 **Before**:<br>
-<img src="https://cdn.discordapp.com/attachments/1047925940770054144/1047957017656045588/image.png", width="500", height="500">
+<p align="center">
+<img src="https://cdn.discordapp.com/attachments/1047925940770054144/1047953087316381767/image.png", width="500", height="500">
+</p>
 
 -----
 
