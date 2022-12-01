@@ -13,11 +13,6 @@
 <strong>
 Scylla is useful for quickly creating files and storing them,
 <br>developped by <a href="https://github.com/KazamaOnGithub">KazamaOnGithub</a> (me) and my <a href="discord.gg/backfire">discord serveur</a>.
-<br><br>
-It allows you to obfuscate your script with more than 10 layers, while keeping it
-<br>
-Very light file in .py or exe file!
-<br><br>
   
 -----
 
