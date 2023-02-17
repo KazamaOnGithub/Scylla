@@ -47,6 +47,7 @@ Scylla is useful for quickly creating files and storing them,
 <p align="center">
 <img src="https://cdn.discordapp.com/attachments/1074831610530254961/1075992053894352916/image.png", width="800", height="800">
 </p>  
+
 -----
 
 ### <p align="center">KazamaOnGithub</p>
