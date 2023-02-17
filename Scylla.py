@@ -1,10 +1,11 @@
 # liste des modules utiliser
-import time
+import time, os, colorama, sys
+from colorama import Fore,Style,Back, init
 from pystyle import *
 
 ############################
-# Author: KazamaOnGithub   #
-# Discord: .gg/backfire    #
+# Author: KAZAM[A]#9629    #
+# Discord: .gg/soon...     #
 # Github : @KazamaOnGithub #
 ############################
 
@@ -12,59 +13,69 @@ from pystyle import *
 # Je ne trouve pas de bon module pour les couleurs c'est pour ceci que c'est horrible niveau interface x'( #
 ############################################################################################################
 
+# parametre
+Cursor.HideCursor()
 
+# Liste de qlq variables
+
+choice_info = " [" + Fore.MAGENTA + ">" + Fore.WHITE + "]"
+choice_i = " [" + Fore.GREEN + "i" + Fore.WHITE + "]" 
+
+def print_slow(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.00000001)
 # def du tool
 def tool():
-    banner = print(Colorate.Horizontal(Colors.yellow_to_red, """
+    os.system( "title 𝘿𝙚𝙫 𝙗𝙮 𝙆𝘼𝙕𝘼𝙈𝘼" )
+    os.system("cls")
+    banner = (Colorate.Vertical(Colors.purple_to_red, """
 
-                                                           _._
-                                                       __.{,_.).__
-                                                    .-"           "-.
-                                                  .'  __.........__  '.
-                                                 /.-'`___.......___`'-.\ 
-                                                /_.-'` /   \ /   \ `'-._\ 
-                                                |     |   '/ \ '  |     |
-                                                |      '-'     '-'      |
-                                                ;                       ;
-                                                _\         ___         /_
-                                               /  '.'-.__  ___  __.-'.'  \ 
-                                             _/_    `'-..._____...-'`    _\_
-                                            /   \           .           /   \ 
-                                            \____)          .          (____/
-                                                \___________.___________/
-                                                  \___________________/
-                                                 (_____________________)
-                                    
-                                    "Backup logins in express, join discord.gg/backfire"
+                 ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄            ▄            ▄▄▄▄▄▄▄▄▄▄▄ 
+                ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░▌          ▐░▌          ▐░░░░░░░░░░░▌
+                ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌▐░▌          ▐░▌          ▐░█▀▀▀▀▀▀▀█░▌
+                ▐░▌          ▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌          ▐░▌       ▐░▌
+                ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌          ▐░█▄▄▄▄▄▄▄█░▌▐░▌          ▐░▌          ▐░█▄▄▄▄▄▄▄█░▌
+                ▐░░░░░░░░░░░▌▐░▌          ▐░░░░░░░░░░░▌▐░▌          ▐░▌          ▐░░░░░░░░░░░▌
+                 ▀▀▀▀▀▀▀▀▀█░▌▐░▌           ▀▀▀▀█░█▀▀▀▀ ▐░▌          ▐░▌          ▐░█▀▀▀▀▀▀▀█░▌
+                          ▐░▌▐░▌               ▐░▌     ▐░▌          ▐░▌          ▐░▌       ▐░▌
+                 ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄      ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌
+                ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
+                 ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀ 
+                                                                               
+"""))
+    # exploiter la variable --> banner
+    print(banner)
 
-------------------------------------------------------------------------------------------------------------------------"""))
-    print()
-    filename = input(Colorate.Vertical(Colors.yellow_to_red, " [>] Enter the file name? "))
+    filename = input(" \n\n "+ choice_info +  " Give your new file a name :: ")
     fichier = open(filename + ".txt", "x")
-    print()
-    print(Colorate.Vertical(Colors.yellow_to_red, " [i] The name of the file to be created was!"))
-    print()
+    print("   " + choice_i + " The name of the file to be created was!")
     # variable info necessaire
-    site_logiciel = input(Colorate.Vertical(Colors.yellow_to_red, " [>] name of website or software? "))
-    print()
-    mail_phone_username = input(Colorate.Vertical(Colors.yellow_to_red, " [>] e-mail or phone number or username? "))
-    print()
-    password = input(Colorate.Vertical(Colors.yellow_to_red, " [>] password? "))
-    print()
-    description = input(Colorate.Vertical(Colors.yellow_to_red, " [>] description (ex: roblox account with 2k robux)? "))
+    site_logiciel = input("\n " + choice_info + " Name of website or software? ")
+    print("   " + choice_i + " The name was registered!")
+    mail_phone_username = input(" \n "+ choice_info +  " E-mail or phone number or username? ")
+    print("   " + choice_i + " The information is recorded!")
+    password = input("\n "+ choice_info +  " password? ")
+    print("   " + choice_i + " Passord has saved with successfully")
+    description = input(" \n "+ choice_info +  " Description (ex: roblox account with 2k robux)? ")
     # écriture dans le fichier
     fichierbis = open(filename + ".txt", "a")
     fichierbis.write(site_logiciel + " :: " + mail_phone_username + " :: " + password + " :: " + description)
     fichier.close()
-    print()
-    print(Colorate.Vertical(Colors.yellow_to_red, "Your information has been recorded and written!"))
     
+    os.system("cls")
+
+    print(Center.XCenter(Center.YCenter(Box.DoubleCube("Your text file was created ═══> " + filename))))
+    print("\n" * 13)
+    os.system("pause")
 
 tool()
 
+
 ############################
-# Author: KazamaOnGithub   #
-# Discord: .gg/backfire    #
+# Author: KAZAM[A]#9629    #
+# Discord: .gg/soon...     #
 # Github : @KazamaOnGithub #
 ############################
     
